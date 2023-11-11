@@ -17,9 +17,10 @@
       <div class="input-group">
         <label for="zorluk" class="input-group-text">Bir Zorluk Seçiniz</label>
         <select id="zorluk" class="form-select">
-          <option value="">Kolay (0-10)</option>
-          <option value="">Orta (0-50)</option>
-          <option value="">Zor (0-100)</option>
+          <option disabled selected>Bir zorluk seç</option>
+          <option value="10">Kolay (0-10)</option>
+          <option value="50">Orta (0-50)</option>
+          <option value="100">Zor (0-100)</option>
         </select>
       </div>
       <div class="input-group my-2">
@@ -32,6 +33,7 @@
       </p>
       <button id="btn" class="btn btn-primary w-50 pointer-event">
         Tahmin Et
+        <span class="badge"></span>
       </button>
     </div>
     <script
